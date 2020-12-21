@@ -49,38 +49,30 @@ public class MyForm extends JFrame {
 
             @Override
             public void mouseExited(MouseEvent e) {
-
-            }
+           
+           }
+            
+            
         });
-
         button2.addMouseListener(new MouseListener() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 team2.increasedScore();
                 scoreLabel.setText(String.valueOf(team1.getScore()) + " " + "X" + " " + String.valueOf(team2.getScore()));
             }
-
             @Override
             public void mousePressed(MouseEvent e) {
-
             }
-
             @Override
             public void mouseReleased(MouseEvent e) {
-
             }
-
             @Override
             public void mouseEntered(MouseEvent e) {
-
             }
-
             @Override
             public void mouseExited(MouseEvent e) {
-
             }
         });
-
         total.addMouseListener(new MouseListener() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -96,25 +88,17 @@ public class MyForm extends JFrame {
                 team2.setScore(0);
                 scoreLabel.setText("0 x 0");
             }
-
             @Override
             public void mousePressed(MouseEvent e) {
-
             }
-
             @Override
             public void mouseReleased(MouseEvent e) {
-
             }
-
             @Override
             public void mouseEntered(MouseEvent e) {
-
             }
-
             @Override
             public void mouseExited(MouseEvent e) {
-
             }
         });
     }
